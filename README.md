@@ -1,7 +1,7 @@
 # jquery-codehim-analog-clock
 Codehim Clock is a well designed, adjustable and fully realistic jQuery and CSS3 based analog clock widget. 
 
-Browse: [Live Demo & Using Guide](https://codehimblog.github.io/jquery-codehim-clock/) 
+Browse: [Live Demo & Using Guide](https://codehimblog.github.io/jquery-codehim-analog-clock/) 
 
 ## Main Features 
 
