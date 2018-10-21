@@ -1,0 +1,19 @@
+jQuery Plugin: Codehim Clock (Realistic Analog Clock) Developed by Codehim.
+
+For Live Demo and Using Guide:
+https://codehimblog.github.io/jquery-codehim-clock/
+
+For more Awesome Web projects and plugins keep visiting us:
+
+Codehim: https://www.codehim.com
+
+GitHub: https://github.com/CodeHimBlog
+
+For suggestions, help or feedback:
+https://www.codehim.com/p/contact.html
+Email: aasomughal@gmail.com
+
+
+                                                     Asif Mughal
+
+

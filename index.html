@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8" />
+<meta name="description" content="Free jQuery and CSS3 based analog clock widget. Codehim Clock Plugin helps you to create an awesome real looking analog clock in your website app project with date and days." />
+<title> jQuery and CSS3 Realistic Analog Clock Widget by Codehim</title>
+
+   <!--jQuery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   <!--Codehim Clock JS-->
+<script src="js/jquery.codehim.clock.js"></script>
+
+   <!--Codehim Clock CSS-->
+<link rel="stylesheet" href="css/codehim-clock.css" />
+
+<script>
+$(document).ready(function(){ 
+
+$(".clock-place").CodehimClock({
+  
+ });
+
+}); 
+</script>
+
+</head>
+<body>
+
+<!--Introduction and Demo Only -->
+<header class="intro">
+      <h1> jQuery and CSS3 Realistic Analog Clock Widget by Codehim </h1>
+      <p>
+       Codehim Clock is a well designed, adjustable and fully realistic jQuery and CSS3 based analog clock widget. 
+         <br />
+         <br />
+<b> Written in:</b><i> HTML5, CSS3 and JavaScript</i><br>
+          <b> Framework: </b> <i>  jQuery 3.3.1</i>
+      </p>
+<div class="action">
+<a class="btn github" href="#3"> Fork on GiHub </a>
+<a class="btn down" href="#3">Download </a>
+<div style="margin-left: auto; margin-right: auto">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- textAd -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:320px;height:100px"
+     data-ad-client="ca-pub-7089100907045419"
+     data-ad-slot="8115428124"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+</div>
+</header>
+<main>
+<article>
+
+<!--Clock Demo-->
+<h2> Codehim Clock Example </h2>
+
+<div class="clock-place"> </div>
+  
+<h2> Main Features </h2>
+   <ul>
+      <li>Fully Responsive, Adjustable and Customizable.</li>
+      <li>Clean and Attractive Design. </li>
+      <li>Available in 3 Sizes, X small, X large and Original Size 250 by 250.</li>
+      <li> CSS3 transformation based clock's hands motion. </li>
+   <li> 100% Exact and Accurate Time (according to the server time). </li>
+  <li> Stylish Date and day badge.</li>
+   <li> Automatically set time, create UI elements and other necessary things in HTML document. </li>
+
+<li> Chrome, Safari, Firefox, Opera, IE7+, IOS, Android and windows phone supported. </li>
+      <li> User Friendly and Easy to Implement. </li>
+   </ul>
+ 
+
+<h2>How to Use</h2>
+
+<p>1. Load  "Codehim Clock jQuery Plugin" and CSS file into your website/app. </p>
+<pre class="prettyprint lang-html">
+&lt;!--Codehim Clock JS--&gt;
+&lt;script src="js/jquery.codehim.clock.js"&gt;&lt;/script&gt;
+
+   &lt;!--Codehim Clock CSS--&gt;
+&lt;link rel="stylesheet" href="css/codehim-clock.css" /&gt;
+</pre>
+
+<p>
+2. After this, you have to do nothing tough to get it working. Just create a container in which you want to adjust this analog clock widget. You can use it anywhere (i.e on sidebar, bottom or something else) in your website/app. 
+</p>
+
+<p>For example, you have create the following div element with class name <code> clock-place </code>.</p>
+
+<pre class="prettyprint lang-html">
+&lt;div class="clock-place"&gt; &lt/div&gt;
+</div>
+
+</pre>
+
+<p>  Now, call the <codd> CodehimClock()</code> with this selector in DOM ready function. </p>
+
+<pre class="prettyprint lang-js">
+$(document).ready(function(){
+
+  $(".clock-place").CodehimClock();
+
+});
+</pre>
+<div style="margin: 10px; margin-top: -15px;>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7089100907045419"
+     data-ad-slot="7782420780"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<p><b> Note:</b> Codehim Clock will automatically generate everything (i.e clock dale, clock's hands, numbers, what's time right now etc.) in HTML document, so you have to do nothing for creating clock interface. </p>
+
+<p>
+We provide classes for customization of each element of the clock. So, you can fully customize it according to your needs. 
+</p>
+
+
+<h2> Codehim Clock Options </h2>
+<p>
+The following are some plugin's options for customization purpose. 
+</p>
+<p> To change the clock widget size, use the following possible class name in string option:</p>
+<ul>
+<li>original </li>
+<li> xsmall</li>
+<li> xlarge </li>
+</ul>
+
+<pre class="prettyprint lang-js">
+$(document).ready(function(){
+
+  $(".clock-place").CodehimClock({
+   clockSize: "original", 
+   });
+
+});
+</pre>
+
+<p> To hide clock second's hand, update the following option.</p>
+
+<pre class="prettyprint lang-js">
+ showSeconds: true, //false to hide seconds hand
+</pre>   
+
+<p> Decide whether to show date and day in clock. default is true. </p>
+<pre class="prettyprint lang-js">
+ showDate: true, //false to hide date and day
+</pre>   
+<br />
+<article>
+</main>
+
+<!--DEMO ONLY FILES-->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="docs/demo-only.css" />
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"> </script> 
+
+<footer class="credit">
+Coded with <span title="Coffee"></span> by Asif Mughal &copy; 2018 - <a href="https://www.codehim.com" rel="dofollow" title="Awesome Web Projects and Tutorials" target="_blank"> Codehim.com </a>
+      </footer>
+</body>
+</html>
